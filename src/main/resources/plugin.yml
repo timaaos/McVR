@@ -1,0 +1,16 @@
+name: McVR
+version: ${project.version}
+main: whybrawl.mcvr.McVR
+api-version: 1.16
+authors: [ Timaaos ]
+description: Virtual Reality in Minecraft! OwO
+website: https://whybrawl.ru
+permissions:
+  McVR.givevr:
+    default: op
+    description: /givevr
+commands:
+  givevr:
+    description: Gives VR things to player
+    usage: /givevr <helmet/body>
+    permission: McVR.givevr
