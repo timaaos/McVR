@@ -32,6 +32,17 @@ public class VR_Helmet {
             meta.setUnbreakable(true);
             helmet.setItemMeta(meta);
             return helmet;
+        }else if(type.equals("diamond")){
+            ItemStack helmet = new ItemStack(Material.MUSIC_DISC_WAIT);
+            ItemMeta meta = helmet.getItemMeta();
+            meta.setDisplayName("Diamond Clicker Game");
+            List<String> lore = new ArrayList<>();
+            lore.add("I clicked 777 times on diamond!");
+            lore.add(" - CoolGamer777");
+            meta.setLore(lore);
+            meta.setUnbreakable(true);
+            helmet.setItemMeta(meta);
+            return helmet;
         }
         return new ItemStack(Material.BRICK);
     }

@@ -20,6 +20,10 @@ public class GiveVR implements CommandExecutor {
                     Player player = (Player) sender;
                     player.getInventory().addItem(VR_Helmet.getGame("void"));
                     return true;
+                }else if(args[0].equals("game_diamond")){
+                    Player player = (Player) sender;
+                    player.getInventory().addItem(VR_Helmet.getGame("diamond"));
+                    return true;
                 }
                 return false;
             }else{

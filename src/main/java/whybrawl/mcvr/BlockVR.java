@@ -11,4 +11,7 @@ public class BlockVR {
     public static BlockData GRASS = Material.LIME_CONCRETE_POWDER.createBlockData();
     public static BlockData MENU_WALL = Material.BLACK_CONCRETE.createBlockData();
     public static BlockData REAL_BLOCK = Material.RED_STAINED_GLASS.createBlockData();
+    public static BlockData DIAMOND_WALL = Material.STONE.createBlockData();
+    public static BlockData DIAMOND_LIGHT = Material.GLOWSTONE.createBlockData();
+    public static BlockData DIAMOND_BLOCK = Material.DIAMOND_ORE.createBlockData();
 }
